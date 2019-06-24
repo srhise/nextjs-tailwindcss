@@ -11,7 +11,7 @@ module.exports = webpackConfig => {
       use: [
         "style-loader",
         { loader: "css-loader", options: { importLoaders: 1 } },
-        { loader: "postcss-loader", options: require("./postcss.config") }
+        { loader: "postcss-loader" }
       ]
     }
   ];
