@@ -1,8 +1,3 @@
 import Button from "../components/Button";
 
-export default {
-  component: Button,
-  props: {
-    text: "Button Text"
-  }
-};
+export default <Button text="Button Text" />;
